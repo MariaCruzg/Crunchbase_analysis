@@ -2,6 +2,9 @@
 #Introduction*
 The purpose of this notebook is to try out a few algorithms for classification problems. I will start with some pre processing (scanling the data, basically) and then cover the following algorithms: Random Forest, XGBoost, Decision Tree and keras. For each one, I will compute the model accuracy both for the test and train dataset.
 
+#Information 
+The investments series at a company level are given. The company status are given - the interesting challenge would be discover if the investments and other criteria help company to be a operating / closed / acquired stage
+
 ![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/Statup%20Companies.png)
 
 *Conclusion*
