@@ -8,14 +8,15 @@ The dataset is also given to us by the open dataset on:https://www.crunchbase.co
 ### Prepare Data for Consumption:
 The  normal processes in data wrangling, such as data architecture, governance, and extraction are out of scope. Thus, only data cleaning is in scope.  For this step we have employed some libraries to removing special characters and Database normalization. We will use the popular scikit-learn and teras libraries to develop our machine learning algorithms. In sklearn, algorithms are called Estimators and implemented in their own classes. For data visualization, we will use the matplotlib and seaborn library
 ### Perform Exploratory Analysis:
-This is the meet and greet step. Get to know your data by first name and learn a little bit about it. What does it look like (datatype and values), what makes it tick (independent/feature variables(s)), what's its goals in life (dependent/target variable(s)). We started with the status of the company. The graph show the percent of each state. 86% of the companies are operating, 7.7% were aquaried and 5.4% were closed. 
+This is the meet and greet step. Get to know your data by first name and learn a little bit about it. What does it look like (datatype and values), what makes it tick (independent/feature variables(s)), what's its goals in life (dependent/target variable(s)). We started with the status of the company. 
+> The graph show the percent of each state. 86% of the companies are operating, 7.7% were aquaried and 5.4% were closed. 
 
 ![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/Statup%20Companies.png)
- Following the analysis we describe the market of the companies. 
+ > Following the analysis we describe the market of the companies. 
 ![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/market.png)
-The most popular category is  about Software & Mobile, It maybe because these 2 categories are easily to scalable ?. The next variable to analys is founding.  
+> The most popular category is  about Software & Mobile, It maybe because these 2 categories are easily to scalable ?. The next variable to analys is founding.  
 ![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/distributionoffoundinf.png)
-To undestand the problem and the numbers we will highlight the unicorns comanies as UBER, Alibaba,Cloudera and Facebook
+> To undestand the problem and the numbers we will highlight the unicorns comanies as UBER, Alibaba,Cloudera and Facebook
 ![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/unicornios.png)
 ### Model Data: 
 
