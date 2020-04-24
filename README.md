@@ -61,8 +61,7 @@ Data analysis is the step to describe and visualize the information. Datatype an
 
 The graph shows the percent of each state. **86**% of the companies are **operating**, **7.7%** were **acquired** and **5.4%** were **closed**.
 
-[![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Statup%20Companies.png)](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/Statup Companies.png)
-
+[![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Statup%20Companies.png)]
 ### Top startups in market
 
 > Following, we describe the **market of the companies**.
