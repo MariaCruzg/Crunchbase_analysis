@@ -98,14 +98,14 @@ It's important to use a `different subset` for train data to build our model and
 [![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Captura%20de%20Pantalla%202020-04-23%20a%20la(s)%2019.25.44.png)]
 
 In addition to CV, we used a customized `sklearn` train test splitter, to allow a little more **randomness** in our *test* scoring. Below is an image of the default CV split. 
-For the s
+The results of the MLA are the following:
 
-| MLA            | accuracy|
+| MLA            | accuracy| σ| 
 | -- | -- |
-| Random_forest     | 85.8 % |
-|Decision Tree          | 85.8%  |
-| XGBoost              | object  |
-| Sequential           | object  |
+| Random_forest     | 84.6%  |0.03%|
+|Decision Tree          | 85.8%  |0.002%|
+| XGBoost              | 85.8%  |0.005%|
+| Sequential           |  86%  |0.03%|
 
 ## Conclusion
 
