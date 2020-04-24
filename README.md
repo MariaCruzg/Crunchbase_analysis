@@ -8,9 +8,7 @@ How the data can help you in a business decisions. For this project, the problem
  
 The dataset is also given to us by the open dataset on:https://www.crunchbase.com/hub/database-startup  
 The columns of this set are: 
-`class 'pandas.core.frame.DataFrame>
-RangeIndex: 49438 entries, 0 to 49437
-Data columns (total 18 columns):
+
  #   Column             Non-Null Count  Dtype  
 ---  ------             --------------  -----  
  0   permalink          49438 non-null  object 
