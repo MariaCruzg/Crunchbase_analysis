@@ -100,7 +100,7 @@ It's important to use a `different subset` for train data to build our model and
 In addition to CV, we used a customized `sklearn` train test splitter, to allow a little more **randomness** in our *test* scoring. Below is an image of the default CV split. 
 The results of the MLA are the following:
 
-| MLA            | accuracy| σ| 
+| MLA | accuracy|standard deviation| 
 | -- | -- |
 | Random_forest     | 84.6%  |0.03%|
 |Decision Tree          | 85.8%  |0.002%|
