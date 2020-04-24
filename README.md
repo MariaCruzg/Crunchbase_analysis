@@ -70,7 +70,15 @@ In addition to CV, we used a customized *sklearn* train test splitter, to allow 
 This notebook explored 4 basic machine learning algorithms. In the majority of them, the accuracy was higher in the training dataset, as expected. In some of thet was lower, however the difference in not significant.
 
 The top 5 of the  variables most significant are: 
-![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/main_variables.png) 
+	      
+|feature	|importance|
+|---|---|
+|funding_total_usd|	0.525|
+|funding_rounds	|0.054|
+|Curated Web|	0.022|
+|Public Relations|	0.008|
+|Software	|0.008|
+|Web Hosting	|0.007|
 
 The accuracy for those cases should be evaluated with a cross validation and not only with a single fold. This dataset is very simple, so maybe we cannot note significant improvement in the algorithms.
 
