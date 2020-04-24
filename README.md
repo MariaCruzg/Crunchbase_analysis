@@ -1,7 +1,12 @@
 # Crunchbase_analysis
-With Crunchbase Data, developers can incorporate the latest industry trends, investment insights, and rich company data right into their applications. The purpose of this notebook is to try out a few algorithms for classification problem. We will start with some pre processing (scanling the data, basically) and then cover the following algorithms: Random Forest, XGBoost, Decision Tree and Keras Sequential model. For each one, We will compute the model accuracy, the Mean Absolute Error, the Mean Squared Error and the Root Mean Squared Error.
+With Crunchbase Data, developers can incorporate the latest industry trends, investment insights, and rich company data right into their applications. The purpose of this notebook is to try out a few algorithms for classification problem. 
+
+We will start with some pre processing (scanling the data, basically) and then cover the following algorithms: Random Forest, XGBoost, Decision Tree and Keras Sequential model. For each one, We will compute the model accuracy, the Mean Absolute Error, the Mean Squared Error and the Root Mean Squared Error.
 ### Define the Problem: 
-For this project, the problem statement is given to us on an open dataset, develop an algorithm to classify the status of the companies who has participated on investments' series from 2012 to 2017.  The investments' series at a company level are given. The company status are given the interesting challenge would be discovered if the investments and other criteria help company to be an operating / closed / acquired stage
+The company status are given the interesting challenge would be discovered if the investments and other criteria help company to be an operating / closed / acquired stage.
+
+For this project, the problem statement is given to us on an open dataset, develop an algorithm to classify the status of the companies who has participated on investments' series from 2012 to 2017. 
+
  ### Gather the Data: 
 The dataset is also given to us by the open dataset on:https://www.crunchbase.com/hub/database-startups
 ### Prepare Data for Consumption:
