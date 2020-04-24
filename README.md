@@ -113,4 +113,4 @@ The top 5 of the variables most significant are:
 | Curated Web       | 0.022      |
 | Public Relations  | 0.008      |
 | Software          | 0.008      |
-| Web Hosting       |            |
+| Web Hosting       |   0.007    |
