@@ -105,7 +105,7 @@ The results of the MLA are the following:
 | Random_forest        | 84.6%  |0.03% |
 |Decision Tree         | 85.8%  |0.002%|
 | XGBoost              | 85.8%  |0.005%|
-| Sequential           |  86%   |0.03% |
+| Sequential           |  86.7%   |0.03% |
 
 ## Conclusion
 
