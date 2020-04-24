@@ -9,26 +9,26 @@ How the data can help you in a business decisions. For this project, the problem
 The dataset is also given to us by the open dataset on:https://www.crunchbase.com/hub/database-startup  
 The columns of this set are: 
 
- #   Column             Non-Null Count  Dtype  
----  ------             --------------  -----  
- 0   permalink          49438 non-null  object 
- 1   name               49437 non-null  object 
- 2   homepage_url       45989 non-null  object 
- 3   category_list      45477 non-null  object 
- 4   market             45470 non-null  object 
- 5   funding_total_usd  49438 non-null  int64  
- 6   status             48124 non-null  object 
- 7   country_code       44165 non-null  object 
- 8   state_code         30161 non-null  object 
- 9   region             44165 non-null  object 
- 10  city               43322 non-null  object 
- 11  funding_rounds     49438 non-null  int64  
- 12  founded_at         38554 non-null  object 
- 13  founded_month      38482 non-null  object 
- 14  founded_quarter    38482 non-null  object 
- 15  founded_year       38482 non-null  float64
- 16  first_funding_at   49438 non-null  object 
- 17  last_funding_at    49438 non-null  object `
+| Column   |Dtype   |    
+|---|---|
+|  permalink |object    |      
+|  name |  object  |     
+|   homepage_url|  object  |      
+  | category_list   |    object |
+  | market     |        object |
+  |  funding_total_usd  |  int64  |
+   | status      |         object |
+   | country_code     |    object |
+   |state_code      |     object |
+   | region         |     object |
+   |city             |   object |
+   |funding_rounds   |    int64 | 
+   |founded_at       |   object |
+   |founded_month    |    object |
+   |founded_quarter  |   object |
+   |founded_year     |   float64|
+   |first_funding_at |  object |
+   |last_funding_at   |   object |
 
 ### Prepare Data for Consumption:
 The normal processes in data wrangling, such as data architecture, governance, and extraction are out of scope. 
@@ -66,9 +66,11 @@ It's important to use a different subset for train data to build our model and t
 
 In addition to CV, we used a customized *sklearn* train test splitter, to allow a little more randomness in our *test* scoring. Below is an image of the default CV split.
 
-
 ## Conclusion 
-This notebook explored 4 basic machine learning algorithms. In the majority of them, the accuracy was higher in the training dataset, as expected. In the ones it was lower, the difference in not significant.
+This notebook explored 4 basic machine learning algorithms. In the majority of them, the accuracy was higher in the training dataset, as expected. In some of thet was lower, however the difference in not significant.
+
+The top 5 of the  variables most significant are: 
+![](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/main_variables.png) 
 
 The accuracy for those cases should be evaluated with a cross validation and not only with a single fold. This dataset is very simple, so maybe we cannot note significant improvement in the algorithms.
 
