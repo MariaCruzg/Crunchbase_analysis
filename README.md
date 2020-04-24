@@ -101,11 +101,11 @@ In addition to CV, we used a customized `sklearn` train test splitter, to allow 
 The results of the MLA are the following:
 
 | MLA | accuracy|standard deviation| 
-| -- | -- |
-| Random_forest     | 84.6%  |0.03%|
-|Decision Tree          | 85.8%  |0.002%|
+| --                   | --     |--|
+| Random_forest        | 84.6%  |0.03% |
+|Decision Tree         | 85.8%  |0.002%|
 | XGBoost              | 85.8%  |0.005%|
-| Sequential           |  86%  |0.03%|
+| Sequential           |  86%   |0.03% |
 
 ## Conclusion
 
