@@ -67,7 +67,7 @@ The graph shows the percent of each state. **86**% of the companies are **operat
 
 > Following, we describe the **market of the companies**.
 >
-> [![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/market.png)](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/market.png)
+> [![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/market.png)]
 
 ### Distribution of total funding
 
@@ -92,11 +92,11 @@ We will convert `categorical data` to -> `dummy variables` for **mathematical** 
 
 When It comes to **data modeling**, the beginner’s question is always, "**what is the best machine learning algorithm?**". We will compare the accuracy, the Mean Absolute Error and the Root Mean Squared Error.
 
-[![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Comparison_model.png)](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/Comparison_model.png)
+[![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Comparison_model.png)]
 
 It's important to use a `different subset` for train data to build our model and test data to evaluate our model. **Model Performance with Cross-Validation** (CV) is basically a shortcut to split and score our model multiple times, so we can get an idea of how well it will perform on unseen data.
 
-[![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Captura%20de%20Pantalla%202020-04-23%20a%20la(s)%2019.25.44.png)](https://github.com/MariaCruzg/Crunchbase_analysis/blob/master/images/Captura de Pantalla 2020-04-23 a la(s) 19.25.44.png)
+[![img](https://github.com/MariaCruzg/Crunchbase_analysis/raw/master/images/Captura%20de%20Pantalla%202020-04-23%20a%20la(s)%2019.25.44.png)]
 
 In addition to CV, we used a customized `sklearn` train test splitter, to allow a little more **randomness** in our *test* scoring. Below is an image of the default CV split.
 
