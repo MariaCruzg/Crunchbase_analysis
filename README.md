@@ -22,7 +22,7 @@ The algorithm presented **classify** the **status** of the **companies** who has
 
 ## Gather the Data:
 
-The dataset is also given to us by the open dataset on [Crunchbase](https://www.crunchbase.com/hub/database-startup)
+The dataset is also given to us by the open dataset on [Crunchbase](https://www.crunchbase.com/)
 
 The columns of this set are:
 
