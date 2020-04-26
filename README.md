@@ -1,8 +1,6 @@
 # Crunchbase_analysis
 
- The objective of this project is to **understand the factors that influence the company status in startups** in North America. With the Crunchbase Data, developers can incorporate the latest **industry trends**, **investment insights**, and **rich company data** right into their applications.  
-
-Classification algorithms map a set of attribute values to a categorical target value, represented by a class attribute.
+ The objective of this project is to **understand the factors that influence the company status in startups** in North America. With the Crunchbase Data, developers can incorporate the latest **industry trends**, **investment insights**, and **rich company data** right into their applications.  We have clustered the companies into 3 sets: operating, acquired and closed. In order to solve the cluster problem a classification algorithms have been employed. Classification algorithms map a set of attribute values to a categorical target value, represented by a class attribute.
 
 We will start with some **pre-processing** (scanling the data, basically) and then cover the following algorithms: `Random Forest`, `XGBoost`, `Decision Tree` and `Keras Sequential model`. 
 
