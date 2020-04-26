@@ -1,8 +1,6 @@
 # Crunchbase_analysis
 
-With the Crunchbase Data, developers can incorporate the latest **industry trends**, **investment insights**, and **rich company data** right into their applications. 
-
-The purpose of this notebook is to try out a few algorithms for solving classification problems. 
+ The objective of this project is to **understand the factors that influence the company status in startups** in North America. With the Crunchbase Data, developers can incorporate the latest **industry trends**, **investment insights**, and **rich company data** right into their applications.  
 
 Classification algorithms map a set of attribute values to a categorical target value, represented by a class attribute.
 
@@ -12,13 +10,7 @@ For each algorithm, We will compute the **model accuracy**, the **Mean Absolute 
 
 ## Define the Problem:
 
-It's difficult to know in which company to invest, so this project wants to have a simple visualization of the data to make the investors easier to make the decision. 
-
-The objective of this project is to **understand the factors that influence the company status in startups** in North America.
-
-So in this project We need to format the data. 
-
-The algorithm presented **classify** the **status** of the **companies** who has participated on **investments**' series from 2012 to 2017. 
+It's difficult to know in which company to invest, so this project wants to have a simple visualization of the data to make the investors easier to make the decision. The purpose of this notebook is to try out a few algorithms for solving classification problems.  The algorithm presented **classify** the **status** of the **companies** who has participated on **investments**' series from 2012 to 2017. 
 
 ## Gather the Data:
 
